@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="'width=device-width, initial-scale=1.0" />
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+    <br>
+    <br>
+    <button id="fortuneButton">Get a Fortune</button>
+    <br>
+    <br>
+    <div class="todoApp">
+      <h2>To-Do List App</h2>
+      <section class="AddTaskSection">
+      <form id="add-task-form">
+        <input type="text" id="newTask" placeholder="add your task here" />
+        <br>
+        <button type="addTaskBtn"> Add Task </button>
+      </form>
+      </section>
+      <br>
+      <br>
+      <section class="EditTaskSection">
+        <form id="edit-task-form">
+          <input type="text" id="task-id" placeholder="input the task ID to edit" />
+          <input type="text" id="edit-task" placeholder="edit your task here">
+          <br>
+          <button type="editTasksubmit"> Edit Task</button>        
+        </form>
+      </section>
+      <br>
+      <br>
+      <!-- this is the section the display the tasks -->
+    <section id="displayTasksListSection"></section> 
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+    
+  </body>
+</html>
